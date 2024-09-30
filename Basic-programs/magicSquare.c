@@ -13,7 +13,7 @@ void magicSquare(int n) {
     }
 
     i = 0;
-    j = n / 2;
+    j = n/2;
 
     for (int num = 1; num <= n * n; num++) {
         arr[i][j] = num;
